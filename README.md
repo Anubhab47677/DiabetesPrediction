@@ -12,15 +12,6 @@
   <img src="https://img.shields.io/badge/Project-Academic%20%7C%20Portfolio-blue" alt="Academic portfolio project">
 </p>
 
-<p>
-  <a href="#overview">Overview</a> ·
-  <a href="#application-preview">Application Preview</a> ·
-  <a href="#features">Features</a> ·
-  <a href="#system-architecture">Architecture</a> ·
-  <a href="#model-performance">Results</a> ·
-  <a href="#getting-started">Get Started</a>
-</p>
-
 </div>
 
 ---
