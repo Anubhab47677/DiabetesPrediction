@@ -1,0 +1,8 @@
+Model,Accuracy,Precision,Recall (Sensitivity),F1-Score,ROC-AUC,False Negatives (FN),False Positives (FP),Training Time (s)
+Logistic Regression,0.7013,0.587,0.5,0.54,0.8194,27,19,0.0171
+K-Nearest Neighbors,0.7532,0.6481,0.6481,0.6481,0.7773,19,19,0.0017
+Support Vector Machine,0.7338,0.6444,0.537,0.5859,0.7789,25,16,0.0854
+Random Forest,0.7078,0.5957,0.5185,0.5545,0.8111,26,19,0.2719
+Gradient Boosting,0.7273,0.62,0.5741,0.5962,0.8081,23,19,0.4012
+Clinical Res-MLP (Standard 0.50),0.7403,0.5897,0.8519,0.697,0.83,8,32,22.9951
+Clinical Res-MLP (Youden 0.62),0.7727,0.6462,0.7778,0.7059,0.83,12,23,22.9951

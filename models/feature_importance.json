@@ -1,0 +1,19 @@
+{
+  "Glucose_BMI_Interaction": 0.16821932138932777,
+  "TyG_Index": 0.14532159215558854,
+  "Glucose": 0.10467130916634645,
+  "HOMA_IR_Proxy": 0.09408360338285303,
+  "Age_BMI_Risk_Interaction": 0.0760498168704836,
+  "Log_Insulin": 0.06397015882074375,
+  "Insulin": 0.05454258300477008,
+  "DiabetesPedigreeFunction": 0.04920048810004661,
+  "Age": 0.04180419500681269,
+  "BMI": 0.03882835018803006,
+  "Insulin_Glucose_Ratio": 0.03871629929673357,
+  "Pregnancies": 0.03334789156330708,
+  "SkinThickness": 0.028820307473205412,
+  "BloodPressure": 0.0210746733943923,
+  "Glucose_Category": 0.017717451757844463,
+  "Metabolic_Syndrome_Score": 0.01749980683604915,
+  "BMI_Category": 0.006132151593465522
+}

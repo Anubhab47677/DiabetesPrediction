@@ -1,0 +1,100 @@
+{
+  "youden_optimal_threshold": 0.6154,
+  "max_youden_j": 0.5478,
+  "default_metrics_0_50": {
+    "threshold": 0.5,
+    "sensitivity_recall": 0.8519,
+    "specificity": 1,
+    "accuracy": 0.7403,
+    "precision": 0.5897,
+    "f1_score": 0.697,
+    "false_negatives": 8,
+    "false_positives": 32,
+    "true_positives": 46,
+    "true_negatives": 68
+  },
+  "optimal_metrics_youden": {
+    "threshold": 0.6154,
+    "sensitivity_recall": 0.7778,
+    "specificity": 1,
+    "accuracy": 0.7727,
+    "precision": 0.6462,
+    "f1_score": 0.7059,
+    "false_negatives": 12,
+    "false_positives": 23,
+    "true_positives": 42,
+    "true_negatives": 77
+  },
+  "calibration_diagnostics": {
+    "brier_score": 0.177,
+    "expected_calibration_error": 0.1326,
+    "calibration_curve": {
+      "fraction_of_positives": [
+        0.0,
+        0.0435,
+        0.2353,
+        0.2143,
+        0.4706,
+        0.48,
+        0.7083,
+        0.75
+      ],
+      "mean_predicted_value": [
+        0.0709,
+        0.1817,
+        0.3035,
+        0.4475,
+        0.5784,
+        0.6787,
+        0.8151,
+        0.9083
+      ]
+    }
+  },
+  "class_weights": {
+    "0": 0.7675,
+    "1": 1.6497663551401869
+  },
+  "feature_names": [
+    "Pregnancies",
+    "Glucose",
+    "BloodPressure",
+    "SkinThickness",
+    "Insulin",
+    "BMI",
+    "DiabetesPedigreeFunction",
+    "Age",
+    "HOMA_IR_Proxy",
+    "TyG_Index",
+    "Insulin_Glucose_Ratio",
+    "Age_BMI_Risk_Interaction",
+    "Glucose_BMI_Interaction",
+    "Metabolic_Syndrome_Score",
+    "BMI_Category",
+    "Glucose_Category",
+    "Log_Insulin"
+  ],
+  "mean_ci_margin_pct": 20.27,
+  "reference_healthy_stats": {
+    "means": {
+      "Pregnancies": 3.315,
+      "Glucose": 109.8525,
+      "BloodPressure": 68.335,
+      "SkinThickness": 19.69,
+      "Insulin": 65.7375,
+      "BMI": 30.241499999999995,
+      "DiabetesPedigreeFunction": 0.43752250000000004,
+      "Age": 31.285
+    },
+    "stds": {
+      "Pregnancies": 2.981274054405042,
+      "Glucose": 24.71097579136451,
+      "BloodPressure": 17.10099075234471,
+      "SkinThickness": 14.64274307676093,
+      "Insulin": 90.6249181142143,
+      "BMI": 7.513862060062326,
+      "DiabetesPedigreeFunction": 0.30527844144449,
+      "Age": 11.609078419684565
+    }
+  }
+}

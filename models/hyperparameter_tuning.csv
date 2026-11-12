@@ -1,0 +1,7 @@
+Trial,Description,Architecture,Dropout,Learning Rate,Batch Size,Optimizer,Val Accuracy,Val Recall,Val F1-Score,Val ROC-AUC,Training Time (s)
+1,"Shallow (1 Layer, No Dropout)",Sequential,0.0,0.001,32,ADAM,0.7634,0.8125,0.7027,0.8596,6.231
+2,Standard 2-Layer (Moderate Dropout),Sequential,0.2,0.001,32,ADAM,0.7312,0.8125,0.6753,0.8402,5.2916
+3,Deep 3-Layer Architecture,Sequential,0.3,0.001,32,ADAM,0.7527,0.7188,0.6667,0.8335,10.244
+4,2-Layer with RMSprop,Sequential,0.2,0.001,32,RMSPROP,0.7634,0.8438,0.7105,0.8555,5.2114
+5,"Clinical Res-MLP (Dense 64 + ResBlock 64 + Dense 32, Swish)",Res-MLP,0.2,0.001,32,ADAM,0.7527,0.7188,0.6667,0.8612,15.4556
+6,Clinical Res-MLP (Low LR + Small Batch),Res-MLP,0.15,0.0008,16,ADAM,0.6774,0.9062,0.6591,0.8499,22.3309
