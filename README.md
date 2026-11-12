@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="assets/dashboard.png" alt="DiabPredict application dashboard" width="100%" />
-
 # DiabPredict — Diabetes Risk Prediction
 
 ### An end-to-end Machine Learning & Deep Learning application for exploratory diabetes risk screening
