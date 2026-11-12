@@ -440,8 +440,8 @@ The preprocessing artifact must be used with the model it was trained alongside.
 
 **Your Name**
 
-- GitHub: [@YOUR-GITHUB-USERNAME](https://github.com/Anubhab47677)
-- LinkedIn: [Add your LinkedIn profile](https://www.linkedin.com/in/anubhab-samantaray/)
+- GitHub: [@Anubhab47677](https://github.com/Anubhab47677)
+- LinkedIn: [Anubhab Samantaray](https://www.linkedin.com/in/anubhab-samantaray/)
 
 ---
 
